@@ -27,7 +27,8 @@ Pipeline description:
 2) assemble each bin of reads separately (Canu)
 3) polish each assembly with all reads (medaka)
 
-Notes:
-Bin width is 200 bp
-Binning cutoff is 3 std above from the mean read length
-This seems to break when the number of reads in a bin is < 100
+Notes:  
+  
+Bin width is 200 bp  
+Binning cutoff is 3 std above from the mean read length  
+This seems to break when the number of reads in a bin is < 100  
