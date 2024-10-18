@@ -30,5 +30,5 @@ Pipeline description:
 Notes:  
   
 Bin width is 200 bp  
-Binning cutoff is 3 std above from the mean read length  
+Binning cutoff is 3 std above the mean read length  
 This seems to break when the number of reads in a bin is < 100  
