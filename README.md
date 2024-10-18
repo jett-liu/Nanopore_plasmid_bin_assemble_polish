@@ -10,7 +10,7 @@ Packages are listed in
 Nanopore.txt
 ```
 
-Canu also needs to be installed from the binary release: https://github.com/marbl/canu/releases
+Canu also needs to be installed from the binary distribution: https://github.com/marbl/canu/releases
 
 To run the script:
 ```
