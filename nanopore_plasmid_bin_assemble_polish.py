@@ -55,6 +55,8 @@ def main(output_folder, input_fastq, num_threads, canu_binary_path):
     plt.axhline(y=two_sigma, color='gray', linestyle='--', label='Average + 2*std')
     plt.text(max(read_lengths) + 0.05*max(read_lengths), two_sigma, f'binning cutoff', fontsize=10, color='gray')
     sns.despine()
+    #set x axis label
+    plt.xlabel('Read Length')
     plt.savefig(f'{output_folder}read_length_hist.png', bbox_inches='tight', dpi=600)
 
     # Check the number of reads extracted for each bin
