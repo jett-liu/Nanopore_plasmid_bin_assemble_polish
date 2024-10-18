@@ -15,7 +15,7 @@ Canu also needs to be install from the binary release: https://github.com/marbl/
 To run the script:
 ```
 conda activate Nanopore
-Python nanopore_plasmid_bin_assemble_polish.py -i <input_fastq_file> -o <output_folder> --canu_binary_path <path_to_canu_binary> -t <number_of_threads_for_processing>
+python nanopore_plasmid_bin_assemble_polish.py -i <input_fastq_file> -o <output_folder> --canu_binary_path <path_to_canu_binary> -t <number_of_threads_for_processing>
 ```
 
 Output:
